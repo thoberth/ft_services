@@ -10,4 +10,4 @@ kubectl apply -f - -n kube-system
 
 CONFIGURATION
 
-1. kubectl apply -f srcs/metallbconfig.yaml 
+1. kubectl apply -f srcs/metallbconfig.yaml

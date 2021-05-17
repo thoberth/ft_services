@@ -18,4 +18,6 @@ RUN		apk update \
 ADD ./nginx.conf /etc/nginx/nginx.conf
 ADD ./index.html /www/index.html
 
+EXPOSE 80
+
 CMD	rc-service nginx start && sh
